@@ -666,12 +666,12 @@
       "connectedBy": "由 {{name}} 连接",
       "active": "已连接",
       "needsReconnect": "需要重新连接",
-      "forms_one": "被 {{count}} 个表单使用：{{names}}",
       "forms_other": "{{count}} 个表单在使用：{{names}}",
       "unused": "没有表单在使用",
       "disconnect": "断开连接",
       "disconnectHeadline": "断开 {{account}}？",
-      "disconnectDescription": "HeyForm 将停止使用此账号，并请求 {{provider}} 撤销其访问权限。使用它的集成将暂停，其提交数据将等待，直到有人选择其他账号或重新连接此账号。"
+      "disconnectDescription": "HeyForm 将停止使用此账号，并请求 {{provider}} 撤销其访问权限。使用它的集成将暂停，其提交数据将等待，直到有人选择其他账号或重新连接此账号。",
+      "forms_one": "Used by {{count}} form: {{names}}"
     },
     "exportData": {
       "title": "导出数据",
@@ -903,7 +903,7 @@
         "submission2_zero": "暂无提交 · 平均 {{average}}",
         "submission2_one": "{{count}} 次提交 · 平均 {{average}}",
         "submission2_other": "{{count}} 次提交 · 平均 {{average}}",
-        "noOtherText": "选择“其他”的用户均未填写内容。"
+        "noOtherText": "Everyone who chose “Other” left it blank."
       }
     },
     "customReport": {
@@ -976,7 +976,7 @@
         "footer": "将 <a>@HeyForm_bot</a> 添加到您的 Telegram 群组，并在群组中输入 <code>/start@HeyForm_bot</code>。然后您将收到一条包含聊天 ID 的消息。"
       },
       "legacyslack": {
-        "label": "Webhook URL",
+        "label": "Webhook 地址",
         "invalid": "Webhook URL 无效",
         "footer": "创建您的 <a1>Slack 应用</a1>，启用 <a2>Incoming Webhooks</a2>，然后在此处粘贴 Webhook URL。"
       },
@@ -986,7 +986,7 @@
         }
       },
       "lark": {
-        "label": "Webhook URL",
+        "label": "Webhook 地址",
         "invalid": "Webhook URL 无效",
         "footer": "在您的群组中添加一个 <a>自定义机器人</a>，然后在此处粘贴 Webhook URL。"
       },
@@ -1150,8 +1150,8 @@
         "retrying": "重试中",
         "attempt": "第 {{attempt}} 次尝试，共 {{maxAttempts}} 次",
         "waiting": "等待中",
-        "waitingCount_one": "{{count}} 条提交正在等待发送。",
-        "waitingCount_other": "{{count}} 条提交等待发送。"
+        "waitingCount_other": "{{count}} 条提交等待发送。",
+        "waitingCount_one": "{{count}} submission is waiting to be sent."
       },
       "apps": {
         "webhook": {
@@ -1464,7 +1464,6 @@
         "multipleSelection": "多选",
         "randomize": "随机化",
         "allowOther": "“其他”选项",
-        "requireOtherText": "要求为“其他”填写文本",
         "total": "总计",
         "labels": "标签",
         "leftLabel": "左标签",
@@ -1516,7 +1515,8 @@
             "number": "数字"
           },
           "verticalAlignment": "垂直对齐"
-        }
+        },
+        "requireOtherText": "Require text for \"Other\""
       },
       "design": {
         "title": "设计",
