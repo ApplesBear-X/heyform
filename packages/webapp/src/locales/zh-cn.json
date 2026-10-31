@@ -671,7 +671,7 @@
       "disconnect": "断开连接",
       "disconnectHeadline": "断开 {{account}}？",
       "disconnectDescription": "HeyForm 将停止使用此账号，并请求 {{provider}} 撤销其访问权限。使用它的集成将暂停，其提交数据将等待，直到有人选择其他账号或重新连接此账号。",
-      "forms_one": "Used by {{count}} form: {{names}}"
+      "forms_one": "被 {{count}} 个表单使用：{{names}}"
     },
     "exportData": {
       "title": "导出数据",
@@ -903,7 +903,7 @@
         "submission2_zero": "暂无提交 · 平均 {{average}}",
         "submission2_one": "{{count}} 次提交 · 平均 {{average}}",
         "submission2_other": "{{count}} 次提交 · 平均 {{average}}",
-        "noOtherText": "Everyone who chose “Other” left it blank."
+        "noOtherText": "所有选择“其他”的人都留空了。"
       }
     },
     "customReport": {
@@ -1151,7 +1151,7 @@
         "attempt": "第 {{attempt}} 次尝试，共 {{maxAttempts}} 次",
         "waiting": "等待中",
         "waitingCount_other": "{{count}} 条提交等待发送。",
-        "waitingCount_one": "{{count}} submission is waiting to be sent."
+        "waitingCount_one": "{{count}} 条提交正在等待发送。"
       },
       "apps": {
         "webhook": {
@@ -1516,7 +1516,7 @@
           },
           "verticalAlignment": "垂直对齐"
         },
-        "requireOtherText": "Require text for \"Other\""
+        "requireOtherText": "要求为“其他”填写文本"
       },
       "design": {
         "title": "设计",
